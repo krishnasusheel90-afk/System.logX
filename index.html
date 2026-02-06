@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>System Monitor</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      color: #00ff00;
+      font-family: "Courier New", monospace;
+      padding: 20px;
+      font-size: 16px;
+    }
+    .blink {
+      animation: blink 1s steps(1) infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+    .dim { color: #00cc00; }
+  </style>
+</head>
+<body>
+
+<p>ACCESS DENIED_<span class="blink">█</span></p>
+<p>STATUS: ACTIVE SESSION</p>
+<p>USER_IP: 203.112.76.199 (SIMULATED)</p>
+<p>LOCATION: Palakkad, Puthoor</p>
+<p>COORDINATES: 10.8237, 76.5732 (SIMULATED)</p>
+<p>NEARBY_NODE: Puthoor Junction</p>
+<p>DEVICE: Android</p>
+
+<br>
+
+<p class="dim">[ INITIATING NETWORK SCAN ]</p>
+<p class="dim">
+- Packet activity: DETECTED<br>
+- IP resolution: COMPLETED<br>
+- Geo-validation: MATCH FOUND<br>
+- Threat level: LOW
+</p>
+
+<br>
+
+<p>SYSTEM_NOTE: SECURITY MONITORING LINKED (SIMULATION MODE)</p>
+<p>LOG STATUS: FLAGGED FOR REVIEW</p>
+
+<br>
+
+<p>Entry completed...<span class="blink">_</span></p>
+
+</body>
+</html>
